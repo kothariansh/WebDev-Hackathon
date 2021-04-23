@@ -33,7 +33,7 @@ Getting Started
 These instructions will get you a copy of the project up and running on
 your local machine for development and testing purposes
 
-You will need [Git](https://git-scm.com/downloads) and [Node.js](https://nodejs.org/en/download/)
+First you will need to install [Git](https://git-scm.com/downloads) and [Node.js](https://nodejs.org/en/download/) on your local machine/computer.
 
 How to get files
 ================
