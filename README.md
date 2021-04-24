@@ -2,7 +2,7 @@
 
 ## A simple and clean pomodoro timer app that helps you focus on your daily timely tasks
 -------------------------------------------------
-#### Visit the app [Pomodoro Timer](https://pomodorotimer1213.netlify.app/)
+#### Visit the app by clicking this [Pomodoro Timer](https://pomodorotimer1213.netlify.app/)
 
 ![](gif/pomodoro.gif)
 
