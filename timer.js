@@ -29,8 +29,6 @@ descForm.shortDesc.addEventListener('keyup',e=>{
     shortDesc = e.target.value;    
 })
 
-
-
 //Variables
 let workMinutes  = workDuration -1;
 let breakMinutes = breakDuration -1;
@@ -41,9 +39,6 @@ let seconds = 60;
 let currentTime = undefined;
 let EndTime = undefined;
 let width = 0;
-
-
-
 
 myBtns.addEventListener('click',(e)=>{
     if(e.target.classList.contains('start')){
@@ -100,8 +95,6 @@ myBtns.addEventListener('click',(e)=>{
     }
 
 })
-
-
 
 
 //fucntion, which is for showing the remaining time to user
@@ -185,4 +178,3 @@ let clearAll = () =>{
 let sessionTime = () =>{
     return `Session was started at ${currentTime} and ended at ${EndTime}`
 }
-
