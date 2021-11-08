@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel = "stylesheet" href = "index.css">
+</head>
+<body>
+
+<div class="topnav" id="myTopnav">
+  <a href="index.html" class="active">Home</a>
+  <a href="todo-list.html">To-Do List</a>
+  <a href="journalEntry.html">Journal entry</a>
+  <a href="pomodoro.html">Pomofocus</a>
+  <img src="logo.png" alt="Logo" style = 'width:75px; float: right; margin-right: 100px; margin-bottom: 5px' >
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<div style="padding-left:16px">
+
+</div>
+
+<script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+
+<h1 style = "text-align: center; font-size: 60px; color: white;"> Worker Buddy</h1>
+<style>
+	ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+		overflow: hidden;
+		background-color: #333;
+	}
+	
+	li {
+		float: left;
+	}
+	
+	li a {
+		display: block;
+		color: white;
+		text-align: center;
+		padding: 14px 16px;
+		text-decoration: none;
+	}
+	
+	li a:hover {
+		background-color: #111;
+	}
+  </style>
+<div class="container" style = "text-align:center">
+    <div class="fixed">
+    <button style="background-color: #ABD1C9FF">Journaling</button>
+      <p>
+      Never forget what you learned today. Reflect on your interactions and events today and your hopes and goals for tomorrow.
+      </p>
+    </div>
+    <div class="fixed" style = "text-align:center">
+    <button style="background-color: #2B78E4;">To-Do List</button>
+      <p>
+      Organize and plan out your day-to-day tasks using the to-do list.
+      Strike off the tasks until you're done with them all.
+      </p>
+    </div>
+    <div class="flex-item" style = "text-align:center">
+    <button style="background-color:#F1C232;">Pomofocus</button>
+      <p>
+      Avoid a burnout with work using the pomodoro timer.
+      Keep track of how much time you spend studying, and plan your breaks.
+      </p>
+    </div>
+
+
+
+
+
+
+
+
+</body>
+</html>
